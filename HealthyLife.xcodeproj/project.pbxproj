@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5701A9A62867201F003AC58A /* DayDataUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701A9A52867201F003AC58A /* DayDataUI.swift */; };
+		5701A9AD2867284F003AC58A /* DayData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701A9AB2867284F003AC58A /* DayData+CoreDataClass.swift */; };
+		5701A9AE2867284F003AC58A /* DayData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5701A9AC2867284F003AC58A /* DayData+CoreDataProperties.swift */; };
+		570821232847CBD1006810C4 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570821222847CBD1006810C4 /* RoundedCorner.swift */; };
+		570821252847E15E006810C4 /* RecipeContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570821242847E15E006810C4 /* RecipeContentData.swift */; };
+		5711825E28636FB30099EE76 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711825D28636FB30099EE76 /* ProfileViewModel.swift */; };
+		571182602863973F0099EE76 /* UserUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711825F2863973F0099EE76 /* UserUI.swift */; };
+		57118262286399570099EE76 /* RecipeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57118261286399570099EE76 /* RecipeUI.swift */; };
+		571AFF27283FFD360044B305 /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AFF26283FFD360044B305 /* FitnessView.swift */; };
+		571AFF29283FFD650044B305 /* FitnessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AFF28283FFD650044B305 /* FitnessViewModel.swift */; };
+		571AFF2B283FFF400044B305 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AFF2A283FFF400044B305 /* SearchBarView.swift */; };
+		571AFF33284004F00044B305 /* Fitness+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AFF31284004F00044B305 /* Fitness+CoreDataClass.swift */; };
+		571AFF34284004F00044B305 /* Fitness+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AFF32284004F00044B305 /* Fitness+CoreDataProperties.swift */; };
+		5721AAE3285F707000E91A59 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 5721AAE2285F707000E91A59 /* SwiftUICharts */; };
+		5721AAE5285F714700E91A59 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5721AAE4285F714700E91A59 /* Summary.swift */; };
+		5721AAE7285F716F00E91A59 /* SummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5721AAE6285F716F00E91A59 /* SummaryViewModel.swift */; };
+		57357D89286A381F0084D734 /* KcalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57357D88286A381F0084D734 /* KcalHelper.swift */; };
+		573C0B7428452F0A00359A6E /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C0B7328452F0A00359A6E /* RecipeDetail.swift */; };
+		573D6E1D28670F670050323F /* FitnessUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573D6E1C28670F670050323F /* FitnessUI.swift */; };
+		57568889285A304F00D9DCC5 /* DayDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57568888285A304F00D9DCC5 /* DayDetail.swift */; };
+		5756888B285A30DC00D9DCC5 /* DayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5756888A285A30DC00D9DCC5 /* DayDetailViewModel.swift */; };
+		5756888D285A4AA500D9DCC5 /* AuxPickerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5756888C285A4AA500D9DCC5 /* AuxPickerListView.swift */; };
+		575698BA2836D92400A33126 /* HealthyLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575698B92836D92400A33126 /* HealthyLifeApp.swift */; };
+		575698BC2836D92400A33126 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575698BB2836D92400A33126 /* Home.swift */; };
+		575698BE2836D92400A33126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575698BD2836D92400A33126 /* Assets.xcassets */; };
+		575698C12836D92400A33126 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575698C02836D92400A33126 /* Preview Assets.xcassets */; };
+		575698C32836D92400A33126 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575698C22836D92400A33126 /* Persistence.swift */; };
+		575698C62836D92400A33126 /* HealthyLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 575698C42836D92400A33126 /* HealthyLife.xcdatamodeld */; };
+		5761B99628380F7C005FCFD0 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5761B99528380F7C005FCFD0 /* NavigationViewModel.swift */; };
+		5761B99828381FC1005FCFD0 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5761B99728381FC1005FCFD0 /* Dashboard.swift */; };
+		5761B99B28383162005FCFD0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5761B99A28383162005FCFD0 /* Extensions.swift */; };
+		578E3257285523D600F8326F /* FitnessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E3256285523D600F8326F /* FitnessDetail.swift */; };
+		57A41C47284B6F05004CC326 /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A41C46284B6F05004CC326 /* TextAlert.swift */; };
+		57A41C49284B6F7B004CC326 /* AlertWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A41C48284B6F7B004CC326 /* AlertWrapper.swift */; };
+		57D87CE6283EA516001DD933 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D87CE5283EA516001DD933 /* Recipes.swift */; };
+		57D87CE8283ECC5A001DD933 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D87CE7283ECC5A001DD933 /* RecipesViewModel.swift */; };
+		57F2D3B52849307E00C15949 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2D3B42849307E00C15949 /* ImagePicker.swift */; };
+		57FE7603283BE571001AAC2C /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FE7602283BE571001AAC2C /* DashboardViewModel.swift */; };
+		57FE7605283C2308001AAC2C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FE7604283C2308001AAC2C /* UserProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5701A9A52867201F003AC58A /* DayDataUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDataUI.swift; sourceTree = "<group>"; };
+		5701A9AB2867284F003AC58A /* DayData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5701A9AC2867284F003AC58A /* DayData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		570821222847CBD1006810C4 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		570821242847E15E006810C4 /* RecipeContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeContentData.swift; sourceTree = "<group>"; };
+		5711825D28636FB30099EE76 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		5711825F2863973F0099EE76 /* UserUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUI.swift; sourceTree = "<group>"; };
+		57118261286399570099EE76 /* RecipeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeUI.swift; sourceTree = "<group>"; };
+		571AFF26283FFD360044B305 /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
+		571AFF28283FFD650044B305 /* FitnessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewModel.swift; sourceTree = "<group>"; };
+		571AFF2A283FFF400044B305 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		571AFF31284004F00044B305 /* Fitness+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fitness+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		571AFF32284004F00044B305 /* Fitness+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fitness+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		5721AAE4285F714700E91A59 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		5721AAE6285F716F00E91A59 /* SummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewModel.swift; sourceTree = "<group>"; };
+		57357D88286A381F0084D734 /* KcalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcalHelper.swift; sourceTree = "<group>"; };
+		573C0B7328452F0A00359A6E /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		573D6E1C28670F670050323F /* FitnessUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessUI.swift; sourceTree = "<group>"; };
+		57568888285A304F00D9DCC5 /* DayDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetail.swift; sourceTree = "<group>"; };
+		5756888A285A30DC00D9DCC5 /* DayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewModel.swift; sourceTree = "<group>"; };
+		5756888C285A4AA500D9DCC5 /* AuxPickerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxPickerListView.swift; sourceTree = "<group>"; };
+		575698B62836D92400A33126 /* HealthyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		575698B92836D92400A33126 /* HealthyLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyLifeApp.swift; sourceTree = "<group>"; };
+		575698BB2836D92400A33126 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		575698BD2836D92400A33126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575698C02836D92400A33126 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		575698C22836D92400A33126 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		575698C52836D92400A33126 /* HealthyLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthyLife.xcdatamodel; sourceTree = "<group>"; };
+		5761B99528380F7C005FCFD0 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		5761B99728381FC1005FCFD0 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		5761B99A28383162005FCFD0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		578E3256285523D600F8326F /* FitnessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessDetail.swift; sourceTree = "<group>"; };
+		57A41C46284B6F05004CC326 /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
+		57A41C48284B6F7B004CC326 /* AlertWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWrapper.swift; sourceTree = "<group>"; };
+		57D87CE5283EA516001DD933 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		57D87CE7283ECC5A001DD933 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		57F2D3B42849307E00C15949 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		57FE7602283BE571001AAC2C /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		57FE7604283C2308001AAC2C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575698B32836D92400A33126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5721AAE3285F707000E91A59 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571AFF302840049A0044B305 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5701A9AB2867284F003AC58A /* DayData+CoreDataClass.swift */,
+				5701A9AC2867284F003AC58A /* DayData+CoreDataProperties.swift */,
+				571AFF31284004F00044B305 /* Fitness+CoreDataClass.swift */,
+				571AFF32284004F00044B305 /* Fitness+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		575698AD2836D92400A33126 = {
+			isa = PBXGroup;
+			children = (
+				575698B82836D92400A33126 /* HealthyLife */,
+				575698B72836D92400A33126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		575698B72836D92400A33126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575698B62836D92400A33126 /* HealthyLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		575698B82836D92400A33126 /* HealthyLife */ = {
+			isa = PBXGroup;
+			children = (
+				5761B99928383143005FCFD0 /* Helpers */,
+				5761B994283808C5005FCFD0 /* Model */,
+				5761B993283808BE005FCFD0 /* ViewModel */,
+				5761B9922838088C005FCFD0 /* View */,
+				575698B92836D92400A33126 /* HealthyLifeApp.swift */,
+				575698BD2836D92400A33126 /* Assets.xcassets */,
+				575698C22836D92400A33126 /* Persistence.swift */,
+				575698C42836D92400A33126 /* HealthyLife.xcdatamodeld */,
+				575698BF2836D92400A33126 /* Preview Content */,
+			);
+			path = HealthyLife;
+			sourceTree = "<group>";
+		};
+		575698BF2836D92400A33126 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				575698C02836D92400A33126 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5761B9922838088C005FCFD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				575698BB2836D92400A33126 /* Home.swift */,
+				5761B99728381FC1005FCFD0 /* Dashboard.swift */,
+				57FE7604283C2308001AAC2C /* UserProfile.swift */,
+				57D87CE5283EA516001DD933 /* Recipes.swift */,
+				571AFF26283FFD360044B305 /* FitnessView.swift */,
+				573C0B7328452F0A00359A6E /* RecipeDetail.swift */,
+				578E3256285523D600F8326F /* FitnessDetail.swift */,
+				57568888285A304F00D9DCC5 /* DayDetail.swift */,
+				5756888C285A4AA500D9DCC5 /* AuxPickerListView.swift */,
+				5721AAE4285F714700E91A59 /* Summary.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5761B993283808BE005FCFD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5761B99528380F7C005FCFD0 /* NavigationViewModel.swift */,
+				57FE7602283BE571001AAC2C /* DashboardViewModel.swift */,
+				57D87CE7283ECC5A001DD933 /* RecipesViewModel.swift */,
+				571AFF28283FFD650044B305 /* FitnessViewModel.swift */,
+				5756888A285A30DC00D9DCC5 /* DayDetailViewModel.swift */,
+				5721AAE6285F716F00E91A59 /* SummaryViewModel.swift */,
+				5711825D28636FB30099EE76 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5761B994283808C5005FCFD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				570821242847E15E006810C4 /* RecipeContentData.swift */,
+				57A41C46284B6F05004CC326 /* TextAlert.swift */,
+				5711825F2863973F0099EE76 /* UserUI.swift */,
+				57118261286399570099EE76 /* RecipeUI.swift */,
+				573D6E1C28670F670050323F /* FitnessUI.swift */,
+				5701A9A52867201F003AC58A /* DayDataUI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5761B99928383143005FCFD0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				57F2D3B32849305E00C15949 /* UIKitViews */,
+				571AFF302840049A0044B305 /* CoreData */,
+				5761B99A28383162005FCFD0 /* Extensions.swift */,
+				571AFF2A283FFF400044B305 /* SearchBarView.swift */,
+				570821222847CBD1006810C4 /* RoundedCorner.swift */,
+				57357D88286A381F0084D734 /* KcalHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		57F2D3B32849305E00C15949 /* UIKitViews */ = {
+			isa = PBXGroup;
+			children = (
+				57F2D3B42849307E00C15949 /* ImagePicker.swift */,
+				57A41C48284B6F7B004CC326 /* AlertWrapper.swift */,
+			);
+			path = UIKitViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		575698B52836D92400A33126 /* HealthyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575698C92836D92400A33126 /* Build configuration list for PBXNativeTarget "HealthyLife" */;
+			buildPhases = (
+				575698B22836D92400A33126 /* Sources */,
+				575698B32836D92400A33126 /* Frameworks */,
+				575698B42836D92400A33126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthyLife;
+			packageProductDependencies = (
+				5721AAE2285F707000E91A59 /* SwiftUICharts */,
+			);
+			productName = HealthyLife;
+			productReference = 575698B62836D92400A33126 /* HealthyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575698AE2836D92400A33126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					575698B52836D92400A33126 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 575698B12836D92400A33126 /* Build configuration list for PBXProject "HealthyLife" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 575698AD2836D92400A33126;
+			packageReferences = (
+				5721AAE1285F707000E91A59 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 575698B72836D92400A33126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575698B52836D92400A33126 /* HealthyLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		575698B42836D92400A33126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575698C12836D92400A33126 /* Preview Assets.xcassets in Resources */,
+				575698BE2836D92400A33126 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575698B22836D92400A33126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571AFF27283FFD360044B305 /* FitnessView.swift in Sources */,
+				571AFF29283FFD650044B305 /* FitnessViewModel.swift in Sources */,
+				5701A9A62867201F003AC58A /* DayDataUI.swift in Sources */,
+				5711825E28636FB30099EE76 /* ProfileViewModel.swift in Sources */,
+				57118262286399570099EE76 /* RecipeUI.swift in Sources */,
+				573D6E1D28670F670050323F /* FitnessUI.swift in Sources */,
+				575698C32836D92400A33126 /* Persistence.swift in Sources */,
+				57A41C47284B6F05004CC326 /* TextAlert.swift in Sources */,
+				5761B99628380F7C005FCFD0 /* NavigationViewModel.swift in Sources */,
+				571AFF34284004F00044B305 /* Fitness+CoreDataProperties.swift in Sources */,
+				575698BC2836D92400A33126 /* Home.swift in Sources */,
+				5756888B285A30DC00D9DCC5 /* DayDetailViewModel.swift in Sources */,
+				57D87CE8283ECC5A001DD933 /* RecipesViewModel.swift in Sources */,
+				575698BA2836D92400A33126 /* HealthyLifeApp.swift in Sources */,
+				5761B99828381FC1005FCFD0 /* Dashboard.swift in Sources */,
+				5721AAE7285F716F00E91A59 /* SummaryViewModel.swift in Sources */,
+				5701A9AD2867284F003AC58A /* DayData+CoreDataClass.swift in Sources */,
+				570821252847E15E006810C4 /* RecipeContentData.swift in Sources */,
+				57357D89286A381F0084D734 /* KcalHelper.swift in Sources */,
+				57D87CE6283EA516001DD933 /* Recipes.swift in Sources */,
+				575698C62836D92400A33126 /* HealthyLife.xcdatamodeld in Sources */,
+				571182602863973F0099EE76 /* UserUI.swift in Sources */,
+				571AFF33284004F00044B305 /* Fitness+CoreDataClass.swift in Sources */,
+				570821232847CBD1006810C4 /* RoundedCorner.swift in Sources */,
+				571AFF2B283FFF400044B305 /* SearchBarView.swift in Sources */,
+				578E3257285523D600F8326F /* FitnessDetail.swift in Sources */,
+				57A41C49284B6F7B004CC326 /* AlertWrapper.swift in Sources */,
+				5721AAE5285F714700E91A59 /* Summary.swift in Sources */,
+				573C0B7428452F0A00359A6E /* RecipeDetail.swift in Sources */,
+				57568889285A304F00D9DCC5 /* DayDetail.swift in Sources */,
+				5756888D285A4AA500D9DCC5 /* AuxPickerListView.swift in Sources */,
+				5701A9AE2867284F003AC58A /* DayData+CoreDataProperties.swift in Sources */,
+				5761B99B28383162005FCFD0 /* Extensions.swift in Sources */,
+				57F2D3B52849307E00C15949 /* ImagePicker.swift in Sources */,
+				57FE7603283BE571001AAC2C /* DashboardViewModel.swift in Sources */,
+				57FE7605283C2308001AAC2C /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		575698C72836D92400A33126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		575698C82836D92400A33126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575698CA2836D92400A33126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthyLife/Preview Content\"";
+				DEVELOPMENT_TEAM = ZHA5FABH99;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of recipes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicmeldi.HealthyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		575698CB2836D92400A33126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthyLife/Preview Content\"";
+				DEVELOPMENT_TEAM = ZHA5FABH99;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of recipes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vicmeldi.HealthyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575698B12836D92400A33126 /* Build configuration list for PBXProject "HealthyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575698C72836D92400A33126 /* Debug */,
+				575698C82836D92400A33126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575698C92836D92400A33126 /* Build configuration list for PBXNativeTarget "HealthyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575698CA2836D92400A33126 /* Debug */,
+				575698CB2836D92400A33126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5721AAE1285F707000E91A59 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5721AAE2285F707000E91A59 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5721AAE1285F707000E91A59 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		575698C42836D92400A33126 /* HealthyLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				575698C52836D92400A33126 /* HealthyLife.xcdatamodel */,
+			);
+			currentVersion = 575698C52836D92400A33126 /* HealthyLife.xcdatamodel */;
+			path = HealthyLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 575698AE2836D92400A33126 /* Project object */;
+}

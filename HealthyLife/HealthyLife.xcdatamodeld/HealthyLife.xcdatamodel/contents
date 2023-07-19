@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DayData" representedClassName="DayData" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="fitness" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Fitness" inverseName="dayData" inverseEntity="Fitness"/>
+        <relationship name="recipes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Recipe" inverseName="dayData" inverseEntity="Recipe"/>
+    </entity>
+    <entity name="Fitness" representedClassName="Fitness" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="modifDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reps" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="dayData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DayData" inverseName="fitness" inverseEntity="DayData"/>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="ingredients" optional="YES" attributeType="String"/>
+        <attribute name="kcal" optional="YES" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="modifDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="preparation" optional="YES" attributeType="String"/>
+        <attribute name="prepTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="recipeName" attributeType="String"/>
+        <relationship name="dayData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DayData" inverseName="recipes" inverseEntity="DayData"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="birthday" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gender" attributeType="String"/>
+        <attribute name="height" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="weight" attributeType="Integer 16" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="DayData" positionX="-155.52734375" positionY="-234.2578125" width="140.875" height="118"/>
+        <element name="Fitness" positionX="55.96875" positionY="42.28515625" width="128" height="163"/>
+        <element name="Recipe" positionX="-344.49609375" positionY="-20" width="128" height="208"/>
+        <element name="User" positionX="-375.91015625" positionY="-225.4765625" width="128" height="104"/>
+    </elements>
+</model>
